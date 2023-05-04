@@ -11,7 +11,7 @@ protocol ClientProtocol {
 }
 
 //IMPROVEMENT: store the api key in a more secure way, perhaps in keyChain
-let apiKey = "8c7d413ef5ca1b74c903923312673540"
+let apiKey = "YOUR_API_KEY"
 
 //IMPROVEMENT: consider using a different persistence for the data, like Core Data, Realm, or even directly on disk
 let savedObjectKey = "com.weather.saved.weatherresponse"
